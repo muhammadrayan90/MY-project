@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ShopEase</title>
+    <link rel="stylesheet" href="phon.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">ShopEase</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Products</a></li>
+                <li><a href="app.html">About</a></li>
+                <li><a href="phon.html">Contact</a></li>
+                <li><a href="cart.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to contact us using the form below or through our contact details.</p>
+
+        <div class="contact-form">
+            <form action="submit-form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-details">
+            <h3>Our Contact Details</h3>
+            <ul>
+                <li>Email: yran@shope.com</li>
+                <li>Phone: +92 03187 320 915</li>
+                <li>TANDO ALLHAYRA</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 YRAN.RAYAN All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - ShopEase</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">YRAN</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Products</a></li>
+                <li><a href="app.html">About</a></li>
+                <li><a href="phon.html">Contact</a></li>
+                <li><a href="cart.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+        <h2>Your Shopping Cart</h2>
+
+        <div id="cart-items-container">
+            <p>Your cart is empty.</p>
+        </div>
+
+        <div id="cart-summary">
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button id="checkout-btn" disabled>Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 YRAN.RAYAN All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+
+</body>
+</html>
